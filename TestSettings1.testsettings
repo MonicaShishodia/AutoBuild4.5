@@ -5,7 +5,7 @@
   <Execution>
     <TestTypeSpecific>
       <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
-        <AssemblyResolution applicationBaseDirectory="%IIS_DRIVE%\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI.Tests">
+        <AssemblyResolution applicationBaseDirectory="\TestCI.Tests">
           <TestDirectory useLoadContext="true" />
         </AssemblyResolution>
       </UnitTestRunConfig>

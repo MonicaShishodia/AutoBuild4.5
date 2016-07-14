@@ -39,3 +39,8 @@ C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI.Tests\bin\Debug\Microsoft.V
 C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI.Tests\obj\Debug\TestCI.Tests.csprojResolveAssemblyReference.cache
 C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI.Tests\obj\Debug\TestCI.Tests.dll
 C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI.Tests\obj\Debug\TestCI.Tests.pdb
+C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI.Tests\bin\Debug\IEDriverServer.exe
+C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI.Tests\bin\Debug\Ionic.Zip.dll
+C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI.Tests\bin\Debug\WebDriver.dll
+C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI.Tests\bin\Debug\WebDriver.xml

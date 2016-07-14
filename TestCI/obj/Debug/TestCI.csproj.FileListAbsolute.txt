@@ -37,3 +37,9 @@ C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI\bin\Microsoft.CodeDom.Provi
 C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI\obj\Debug\TestCI.dll
 C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI\obj\Debug\TestCI.pdb
+C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI\bin\IEDriverServer.exe
+C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI\bin\Ionic.Zip.dll
+C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI\bin\Newtonsoft.Json.dll
+C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI\bin\WebDriver.dll
+C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI\bin\WebDriver.xml
+C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI\obj\Debug\TestCI.csprojResolveAssemblyReference.cache

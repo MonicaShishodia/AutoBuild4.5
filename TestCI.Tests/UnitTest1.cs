@@ -43,6 +43,7 @@ namespace TestCI.Tests
             //driver.FindElementById("lst-ib").Clear();
             //driver.FindElementById("lst-ib").SendKeys("Selenium");
             //do other Selenium things here!
+            driver.Close();
         }
 
         /// <summary>

@@ -10,37 +10,50 @@ using OpenQA.Selenium.IE;
 using OpenQA.Selenium.Remote;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Chrome;
-
+using TestCI;
 
 namespace NUnit
 {
     [TestFixture]
-   public class NUnitTest
+    public class NUnitTest
     {
         IWebDriver driver = null;
+        IPrintMessage ipm = new GetData();
         [SetUp]
         public void OpenURL()
         {
-            driver = new FirefoxDriver();
-           
+
+
         }
         [Test]
         public void NunitSeleniumTest()
         {
             try
             {
+                driver = new FirefoxDriver();
                 driver.Navigate().GoToUrl("http://localhost/TestCI");
                 IWebElement element = driver.FindElement(By.Id("txtBox"));
                 element.SendKeys("Test");
             }
             catch (Exception e)
             { }
-            finally { }
+            finally { driver.Close(); }
         }
+        [Test]
+        public void GetMessageTest()
+        {
+            Assert.IsNotNull(ipm.GetMessage());
+        }
+        [Test]
+        public void GetExecutionTime()
+        {
+            System.Threading.Thread.Sleep(10000);
+        }
+
         [TearDown]
         public void Cleanup()
         {
-            driver.Close();
+
         }
     }
 }

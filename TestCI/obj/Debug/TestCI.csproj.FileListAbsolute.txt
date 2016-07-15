@@ -43,3 +43,5 @@ C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI\bin\Newtonsoft.Json.dll
 C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI\bin\WebDriver.dll
 C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI\bin\WebDriver.xml
 C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI\obj\Debug\TestCI.csprojResolveAssemblyReference.cache
+C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI\bin\ThoughtWorks.Selenium.Core.dll
+C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI\bin\ThoughtWorks.Selenium.Core.xml

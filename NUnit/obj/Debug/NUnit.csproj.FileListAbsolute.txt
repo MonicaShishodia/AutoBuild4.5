@@ -1,0 +1,9 @@
+C:\Work\Test Solutions\TestCIGitHub\AutoBuild\NUnit\bin\Debug\NUnit.dll
+C:\Work\Test Solutions\TestCIGitHub\AutoBuild\NUnit\bin\Debug\NUnit.pdb
+C:\Work\Test Solutions\TestCIGitHub\AutoBuild\NUnit\bin\Debug\nunit.framework.dll
+C:\Work\Test Solutions\TestCIGitHub\AutoBuild\NUnit\bin\Debug\WebDriver.dll
+C:\Work\Test Solutions\TestCIGitHub\AutoBuild\NUnit\bin\Debug\nunit.framework.xml
+C:\Work\Test Solutions\TestCIGitHub\AutoBuild\NUnit\bin\Debug\WebDriver.xml
+C:\Work\Test Solutions\TestCIGitHub\AutoBuild\NUnit\obj\Debug\NUnit.dll
+C:\Work\Test Solutions\TestCIGitHub\AutoBuild\NUnit\obj\Debug\NUnit.pdb
+C:\Work\Test Solutions\TestCIGitHub\AutoBuild\NUnit\obj\Debug\NUnit.csprojResolveAssemblyReference.cache

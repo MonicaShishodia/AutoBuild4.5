@@ -40,7 +40,7 @@ namespace TestCI.Tests
             }
             catch (Exception e)
             { }
-            finally { driver.Quit(); }
+            finally { driver.Close(); }
         }
     }
 }

@@ -32,10 +32,8 @@ C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI.Tests\bin\Debug\roslyn\VBCS
 C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
 C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI.Tests\bin\Debug\TestCI.Tests.dll
 C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI.Tests\bin\Debug\TestCI.Tests.pdb
-C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI.Tests\bin\Debug\TestCI.dll
 C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI.Tests\bin\Debug\TestCI.pdb
-C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
 C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI.Tests\obj\Debug\TestCI.Tests.csprojResolveAssemblyReference.cache
 C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI.Tests\obj\Debug\TestCI.Tests.dll
 C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI.Tests\obj\Debug\TestCI.Tests.pdb
@@ -44,3 +42,5 @@ C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI.Tests\bin\Debug\Ionic.Zip.d
 C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI.Tests\bin\Debug\Newtonsoft.Json.dll
 C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI.Tests\bin\Debug\WebDriver.dll
 C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI.Tests\bin\Debug\WebDriver.xml
+C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI.Tests\bin\Debug\ThoughtWorks.Selenium.Core.dll
+C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI.Tests\bin\Debug\ThoughtWorks.Selenium.Core.xml

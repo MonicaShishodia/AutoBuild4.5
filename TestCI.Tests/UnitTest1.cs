@@ -14,6 +14,7 @@ namespace TestCI.Tests
     [TestClass]
     public class UnitTest1
     {
+        IWebDriver driver = new FirefoxDriver();
         public TestContext TestContext { get; set; }
         IPrintMessage ipm = new GetData();
 
@@ -28,6 +29,18 @@ namespace TestCI.Tests
             System.Threading.Thread.Sleep(10000);
         }
 
-
+        [TestMethod]
+        public void SeleniumTest()
+        {
+            try
+            {
+                driver.Navigate().GoToUrl("http://localhost/TestCI");
+                IWebElement element = driver.FindElement(By.Id("txtBox"));
+                element.SendKeys("Test");
+            }
+            catch (Exception e)
+            { }
+            finally { driver.Close(); }
+        }
     }
 }

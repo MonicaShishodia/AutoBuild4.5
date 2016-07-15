@@ -12,7 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit_testing Metrices", "Un
 		GenerateUnitTestMetrices.bat = GenerateUnitTestMetrices.bat
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCI_CodedUITest", "TestCI_CodedUITest\TestCI_CodedUITest.csproj", "{453FBFAB-F2CD-40C4-8A69-6C5DA24E76C5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F92803F3-1A95-4188-B1DA-F73867501A54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,10 +28,6 @@ Global
 		{8FF21F6E-9EA4-4EEE-857B-86585B71A141}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FF21F6E-9EA4-4EEE-857B-86585B71A141}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FF21F6E-9EA4-4EEE-857B-86585B71A141}.Release|Any CPU.Build.0 = Release|Any CPU
-		{453FBFAB-F2CD-40C4-8A69-6C5DA24E76C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{453FBFAB-F2CD-40C4-8A69-6C5DA24E76C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{453FBFAB-F2CD-40C4-8A69-6C5DA24E76C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{453FBFAB-F2CD-40C4-8A69-6C5DA24E76C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<OrderedTest name="orderedtest1" storage="c:\work\test solutions\testcigithub\autobuild\testci_codeduitest\orderedtest1.orderedtest" id="3ca68dca-48e1-4690-b405-45b54e9a67c1" continueAfterFailure="true" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <TestLinks>
-    <TestLink id="8c000c43-5e04-6f4b-51f2-2861c58ca4f2" name="GetExecutionTime" storage="..\testci.tests\bin\debug\testci.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-    <TestLink id="2a9d7243-1ac9-a8da-d426-29f5a270f321" name="GetMessageTest" storage="..\testci.tests\bin\debug\testci.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-    <TestLink id="a51f2530-494d-be0f-82a4-7f49432de640" name="CodedUITestMethod1" storage="bin\debug\testci_codeduitest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  </TestLinks>
-</OrderedTest>

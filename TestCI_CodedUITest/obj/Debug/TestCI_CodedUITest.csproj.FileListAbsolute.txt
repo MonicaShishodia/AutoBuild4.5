@@ -1,5 +1,0 @@
-C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI_CodedUITest\bin\Debug\TestCI_CodedUITest.dll
-C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI_CodedUITest\bin\Debug\TestCI_CodedUITest.pdb
-C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI_CodedUITest\obj\Debug\TestCI_CodedUITest.csprojResolveAssemblyReference.cache
-C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI_CodedUITest\obj\Debug\TestCI_CodedUITest.dll
-C:\Work\Test Solutions\TestCIGitHub\AutoBuild\TestCI_CodedUITest\obj\Debug\TestCI_CodedUITest.pdb

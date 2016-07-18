@@ -29,18 +29,19 @@ namespace TestCI.Tests
             System.Threading.Thread.Sleep(10000);
         }
 
-        [TestMethod]
-        public void SeleniumTest()
-        {
-            try
-            {
-                driver.Navigate().GoToUrl("http://localhost/TestCI");
-                IWebElement element = driver.FindElement(By.Id("txtBox"));
-                element.SendKeys("Test");
-            }
-            catch (Exception e)
-            { }
-            finally { driver.Close(); }
-        }
+        //[TestMethod]
+        //public void SeleniumTest()
+        //{
+        //    try
+        //    {
+        //        string url = System.Configuration.ConfigurationManager.AppSettings["StagingURL"];
+        //        driver.Navigate().GoToUrl(url + "TestCI");
+        //        IWebElement element = driver.FindElement(By.Id("txtBox"));
+        //        element.SendKeys("Test");
+        //    }
+        //    catch (Exception e)
+        //    { }
+        //    finally { driver.Close(); }
+        //}
     }
 }

@@ -24,7 +24,7 @@ exit /b %errorlevel%
 del /q "%WORKSPACE%\AutoBuildTest\"  
 mkdir "%WORKSPACE%\AutoBuildTest\"  
 "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\mstest.exe" /resultsfile:"%WORKSPACE%\AutoBuildTest\Results.trx" /testcontainer:"%WORKSPACE%\TestCI.Tests\bin\Debug\TestCI.Tests.dll" /nologo 
-"%WORKSPACE%\packages\OpenCover.4.6.519\tools\OpenCover.Console.exe" -register:"%WORKSPACE%\packages\OpenCover.4.6.519\tools\x64\OpenCover.Profiler.dll" -target:"%WORKSPACE%\packages\NUnit.ConsoleRunner.3.4.1\tools\nunit3-console.exe"  -targetargs:"/testcontainer:\"%WORKSPACE%\NUnit\bin\Debug\NUnit.dll"\" /resultsfile:\"%~TestResultNunit.trx\""  -output:"%WORKSPACE%\TestCI.xml" 
+"%WORKSPACE%\packages\OpenCover.4.6.519\tools\OpenCover.Console.exe" -register:"%WORKSPACE%\packages\OpenCover.4.6.519\tools\x64\OpenCover.Profiler.dll" -target:"%WORKSPACE%\packages\NUnit.ConsoleRunner.3.4.1\tools\nunit3-console.exe"  -targetargs:"/nologo "%WORKSPACE%\NUnit\bin\Debug\NUnit.dll" /noshadow" -output:"%WORKSPACE%\TestCIOpenCover.xml" 
 exit /b %errorlevel% 
    
 :RunReportGeneratorOutput 

@@ -25,20 +25,20 @@ namespace NUnit
 
 
         }
-        [Test]
-        public void NunitSeleniumTest()
-        {
-            try
-            {
-                driver = new FirefoxDriver();
-                driver.Navigate().GoToUrl("http://localhost/TestCI");
-                IWebElement element = driver.FindElement(By.Id("txtBox"));
-                element.SendKeys("Test");
-            }
-            catch (Exception e)
-            { }
-            finally { driver.Close(); }
-        }
+        //[Test]
+        //public void NunitSeleniumTest()
+        //{
+        //    try
+        //    {
+        //        driver = new FirefoxDriver();
+        //        driver.Navigate().GoToUrl("http://localhost/TestCI");
+        //        IWebElement element = driver.FindElement(By.Id("txtBox"));
+        //        element.SendKeys("Test");
+        //    }
+        //    catch (Exception e)
+        //    { }
+        //    finally { driver.Close(); }
+        //}
         [Test]
         public void GetMessageTest()
         {

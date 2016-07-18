@@ -1,20 +1,14 @@
-﻿using TestCI;
-using System;
+﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using OpenQA.Selenium;
-using OpenQA.Selenium.PhantomJS;
-using OpenQA.Selenium.IE;
-using OpenQA.Selenium.Remote;
-using OpenQA.Selenium.Firefox;
-using OpenQA.Selenium.Chrome;
-using Selenium;
+//using OpenQA.Selenium;
+//using OpenQA.Selenium.Firefox;
 
 namespace TestCI.Tests
 {
     [TestClass]
     public class UnitTest1
     {
-        IWebDriver driver = new FirefoxDriver();
+        //IWebDriver driver = new FirefoxDriver();
         public TestContext TestContext { get; set; }
         IPrintMessage ipm = new GetData();
 

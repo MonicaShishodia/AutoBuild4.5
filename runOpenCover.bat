@@ -24,12 +24,7 @@ exit /b %errorlevel%
 del /q "%WORKSPACE%\AutoBuildTest\"  
 mkdir "%WORKSPACE%\AutoBuildTest\"  
 "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\mstest.exe" /resultsfile:"%WORKSPACE%\AutoBuildTest\Results.trx" /testcontainer:"%WORKSPACE%\TestCI.Tests\bin\Debug\TestCI.Tests.dll" /nologo 
-"%WORKSPACE%\packages\OpenCover.4.6.519\tools\OpenCover.Console.exe" 
--register:"%WORKSPACE%\packages\OpenCover.4.6.519\tools\x64\OpenCover.Profiler.dll"  
--target:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\mstest.exe"  
--targetargs:"/testcontainer:\"%WORKSPACE%\TestCI.Tests\bin\Debug\TestCI.Tests.dll\" /resultsfile:\"%~dp0TestCI.trx\""  
--output:"%WORKSPACE%\TestCI.xml" 
-exit /b %errorlevel% 
+"%WORKSPACE%\packages\OpenCover.4.6.519\tools\OpenCover.Console.exe" -register:"%WORKSPACE%\packages\OpenCover.4.6.519\tools\x64\OpenCover.Profiler.dll" -target:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\mstest.exe"  -targetargs:"/testcontainer:\"%WORKSPACE%\TestCI.Tests\bin\Debug\TestCI.Tests.dll\" /resultsfile:\"%~dp0TestCI.trx\""  -output:"%WORKSPACE%\TestCI.xml" exit /b %errorlevel% 
    
 :RunReportGeneratorOutput 
 "%WORKSPACE%\packages\ReportGenerator.2.4.5.0\tools\ReportGenerator.exe" ^ 

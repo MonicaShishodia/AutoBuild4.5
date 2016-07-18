@@ -28,9 +28,7 @@ mkdir "%WORKSPACE%\AutoBuildTest\"
 exit /b %errorlevel% 
    
 :RunReportGeneratorOutput 
-"%WORKSPACE%\packages\ReportGenerator.2.4.5.0\tools\ReportGenerator.exe" ^ 
--reports:"%WORKSPACE%\TestCI.xml" ^ 
--targetdir:"%WORKSPACE%\GeneratedReports\ReportGenerator Output" 
+"%WORKSPACE%\packages\ReportGenerator.2.4.5.0\tools\ReportGenerator.exe" -reports:"%WORKSPACE%\TestCI.xml" -targetdir:"%WORKSPACE%\GeneratedReports\ReportGenerator Output" 
 exit /b %errorlevel% 
    
 :RunLaunchReport 
